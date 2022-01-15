@@ -1,0 +1,13 @@
+$colors: (main: #FFFFFF, secondary: #6c707c, third:#17d1ac, fourth:#F4F7FF);
+@mixin display-flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@mixin flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
